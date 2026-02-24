@@ -1,1 +1,50 @@
 esercizi corso Python
+Appunti: 
+- esistono 3 tipi di errore: SINTASSI, RUNTIME (eccezioni), SEMANTICA
+- in python non ha chiaro i campi dove dividiamo: se voglio risultato con intero scrivo 3/2 come 3//2, elevamento a potenza con **, non iniziare con lo spazio
+- scrivo le parentesi se faccio ordini diversi di operazioni 
+- Runtime error: semantica e sintassi giuste, ma eccezioni (es- 3/0)
+programma: inzieme ordinato di 5 ISTRUZIONI 
+1. INPUT
+
+la fine dello STATEMENT corrisponde con andare a capo
+- non producono nessun risultato (solo affermazioni)
+- scrivo uno statement per ogni riga
+
+IMPORT STATEMENT inizia con una keyword 
+Easter Egg: scherzone di Python --> se scrivo "import this" (statement) produce un risultato 
+
+COMMENTI: 
+- scrivere dei buoni commenti 
+- scriverli con # --> è un mio appunto che non interessa a Python
+- usare anche il triplo apice per fare commenti su più linee (ma è quasi un commento: si chiama dogstring): '''
+
+ci sono TOKEN (parole) vietate = KEYWORD (almeno 35)
+- True 
+
+a sinistra di = sta il left valuse, a destra il right value 
+
+TYPE( ) dice la tipologia dell'oggetto
+es. type(4) --> è ogetto di tipo intero 
+qualsiasi cosa inizi e finisca con un apice è un simbolo STRINGA 
+
+es. a=1 ; a --> 1 
+    a==1 --> True 
+
+funzione PRINT() fa vedere nomi delle variabili 
+
+- variabili non possono inziare con un numero 
+
+ESPRESSIONI producono un risultato 
+
+! quanti tipi di comandi ci sono in Python? 2. statement e espressioni 
+
+il tipo None = nessun tipo 
+es. a == None potrebbe funzuioinare ma è sbagliato : con None il comando è is 
+es. a=1 e b=1.0 ma a==b falso perchè il type è diverso
+
+Con le STRINGHE l'operatore + diventa CONCATENAZIONE e * RIPETIZIONE 
+
+CASTING per cambiare il tipo di una variabile 
+- non posso trasformare untesto a un numero ma il contario si
+- posso trasformare un float a un intero
