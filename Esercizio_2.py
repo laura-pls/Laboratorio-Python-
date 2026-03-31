@@ -20,7 +20,7 @@ The water, like a witch's oils,
 Burnt green, and blue and white.
 '''
 
-#risolvendo parte 1 esercizio 2
+#risolvendo punto 1 e 2 esercizio 2
 
 #divido il testo in base al carattere \n
 lista_righe = testo.split('\n')            #dividiamo il testo in tutte le volte in cui va a capo
@@ -38,14 +38,25 @@ print(lista_parole)                        #ora le parole sono unite dai caratte
 '''
 lista_parole = testo.split()
 print(lista_parole)
-contatore = 0
+contatore = 0                              #devo cambiare la parola contatore???? (es.conto)
 for parola in lista_parole: 
     if len(parola) > 0: 
         contatore = contatore + 1
     
 print(contatore)
 
+#punto 3
 
+alfanumerici = 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+lista_alfanumerici = testo.split()
+conto = 0
+for alfanumerico in lista_alfanumerici: 
+    if len(alfanumerico) > 0: 
+        conto = conto + 1 
+
+print(conto)
+
+"""
 #punto 8
 n = 0, 1, 2, 3
 for riga in lista_righe 
@@ -54,3 +65,4 @@ for riga in lista_righe
 
 for indice in [1, 5, 9, 13]
     if 
+"""
