@@ -2,7 +2,7 @@
 
 import json  #creo file json
 
-class rubrica:
+class Rubrica:
     pass
 
     def __int__(self): 

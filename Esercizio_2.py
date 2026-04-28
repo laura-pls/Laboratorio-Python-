@@ -45,16 +45,29 @@ for parola in lista_parole:
     
 print(contatore)
 
-#punto 3
-
+#punto 3: conta caratteri alfanumerici   (isalnum: metodo delle stringhe per contare n carattere alla volta)
 alfanumerici = 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 lista_alfanumerici = testo.split()
 conto = 0
-for alfanumerico in lista_alfanumerici: 
-    if len(alfanumerico) > 0: 
+for carattere in testo: 
+    if carattere in alfanumerici: 
+        print(carattere)    #per verificare quali considera carattere
         conto = conto + 1 
 
 print(conto)
+
+#punto 4: chiedo una lettera 
+n = str(input("Inserisci una lettera: \n"))       # n è una variabile che assumerà il valore della lettera: sto chiedendo una lettra a video
+count = 0
+
+for x in testo: # scorro il testo carrattere per carattere 
+    if (x == n):
+        count = count + 1 
+
+print(f"La lettera comapare {count} volte nel testo")    #f_string è una compattazione della stringa (vedo)
+
+
+#punto 5:
 
 """
 #punto 8
